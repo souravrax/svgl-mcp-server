@@ -1,0 +1,26 @@
+{
+  "name": "svgl-mcp",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc && chmod 755 build/index.js"
+  },
+  "files": [
+    "build"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.11.0",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "better-fetch": "^1.1.2",
+    "zod": "^3.25.51"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.30",
+    "typescript": "^5.8.3"
+  }
+}
